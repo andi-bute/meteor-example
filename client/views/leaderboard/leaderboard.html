@@ -13,4 +13,7 @@
   {{else}}
   <div class="none">Click a player to select</div>
   {{/if}}
+  {{#if currentUser}}
+    {{> addPlayer}}
+  {{/if}}
 </template>
